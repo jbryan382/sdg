@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "hello-world",
+  "scripts": {
+    "start": "browser-sync start --server public --files public",
+    "deploy": "netlify deploy --prod --dir=public",
+    "setup-deploy": "app-app --deploy && npm run deploy",
+    "postdeploy": "echo 'Your site was deployed to https://hello-world-jordan.netlify.app'"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "useTabs": false,
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "prettier": "^2.2.1"
+  },
+  "homepage": "https://hello-world-jordan.netlify.app"
+}

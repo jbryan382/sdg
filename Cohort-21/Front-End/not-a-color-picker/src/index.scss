@@ -1,0 +1,21 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+.thermometer {
+  padding: 10rem;
+}
+
+.hi {
+  padding: 1rem;
+  background-color: hsl(50, 50%, 50%);
+}

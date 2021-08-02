@@ -1,0 +1,52 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+th,
+td {
+  border: solid black 1px;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar li {
+  padding: 1rem;
+}
+
+.welcomeMessage {
+  margin: 4rem;
+}
+
+.signUpBox,
+.loginBox {
+  border: solid black 1px;
+  margin: 5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerText {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  padding: 2rem;
+}

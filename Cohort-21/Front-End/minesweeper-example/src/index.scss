@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  /* center the header */
+  text-align: center;
+
+  /* Use a sans serif font with a little spacing and color */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.4rem;
+  font-size: var(--header-font-size);
+  color: var(--header-text-color);
+
+  /* Remove margins and set a little padding */
+  margin-top: 10rem;
+  padding: var(--header-font-size);
+
+  /* Set a background color for the header */
+  background-color: var(--header-background);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 2rem;
+  height: 2rem;
+  border: thick solid;
+  border-color: rgb(168, 157, 142);
+}
+.cell:hover {
+  background-color: lightgrey;
+}
+.revealed {
+  background-color: rgb(174, 178, 189);
+  color: transparent;
+  border-color: rgb(139, 139, 139);
+}
+.unrevealed {
+  border-top-color: antiquewhite;
+  border-left-color: antiquewhite;
+  border-bottom-color: rgb(201, 190, 175);
+  border-right-color: rgb(201, 190, 175);
+}
